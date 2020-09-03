@@ -2,7 +2,6 @@
 
 const { Matchers } = require("@pact-foundation/pact")
 const { getClients, postClient } = require("../../../src/consumer")
-const { TestScheduler } = require("jest")
 
 describe("Clients Service", () => {
     const GET_EXPECTED_BODY = [{
@@ -49,12 +48,11 @@ describe("Clients Service", () => {
             return provider.addInteraction(interaction)
         })
 
-        test("returns correct body, header and statusCode", async() => {
+        test("returns correct body, header and statusCode", async () => {
             const response = await getClients()
             expect(response.headers['content-type']).toBe("application/json; charset=utf-8")
             expect(response.data).toEqual(GET_EXPECTED_BODY)
             expect(response.status).toEqual(200)
         })
     })
-
 })
