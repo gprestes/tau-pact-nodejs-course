@@ -474,7 +474,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@pact-foundation/pact-node@^10.9.7":
+"@pact-foundation/pact-node@^10.10.1":
   version "10.10.1"
   resolved "https://registry.yarnpkg.com/@pact-foundation/pact-node/-/pact-node-10.10.1.tgz#1feab92595acff9ab28b627687960cc15c1d2e68"
   integrity sha512-N/mgqZ1z/MyD1LiRirUW7Y637Ry3y0k9Jq3kPb+9txz+OVMbkhmyNfBrhrmAuIAd14Bs832yR0kw76x2q1h7Bw==
@@ -498,12 +498,12 @@
     unzipper "^0.10.10"
     url-join "^4.0.0"
 
-"@pact-foundation/pact@9.11.1":
-  version "9.11.1"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.11.1.tgz#f17d6bc7b9f8fb29138c91c3cfb04f7cd3d92ea3"
-  integrity sha512-Hp6VbKjnaBg18wdyDXAjzQfXyISUSa8747vKc/Aohj4XrJALMWnqZDfLJkjgz+3l6dmDRQN37gVoL8RG2GJRqg==
+"@pact-foundation/pact@9.12.2":
+  version "9.12.2"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.12.2.tgz#95e7ec6126b06a7434e168a83a95b0730a85cf43"
+  integrity sha512-O/Jt7alsjBdUOyv2VMZPA887kykNVKnk9eS4Jwc4Ee0yYqVOXIZRrIHtJmUvI8bk0C+vxDTixNKeRULKm5K7yw==
   dependencies:
-    "@pact-foundation/pact-node" "^10.9.7"
+    "@pact-foundation/pact-node" "^10.10.1"
     "@types/bluebird" "^3.5.20"
     "@types/bunyan" "^1.8.3"
     "@types/express" "^4.11.1"
@@ -519,7 +519,7 @@
     graphql-tag "^2.9.1"
     http-proxy "^1.18.1"
     http-proxy-middleware "^0.19.0"
-    lodash "^4.17.16"
+    lodash "^4.17.20"
     lodash.isfunction "3.0.8"
     lodash.isnil "4.0.0"
     lodash.isundefined "3.0.1"
@@ -3236,7 +3236,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.16, lodash@^4.17.19:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
