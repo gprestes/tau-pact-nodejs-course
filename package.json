@@ -11,7 +11,7 @@
     "publish:contract": "node ./__tests__/helpers/publish.js"
   },
   "devDependencies": {
-    "@pact-foundation/pact": "9.11.1",
+    "@pact-foundation/pact": "9.13.0",
     "axios": "0.21.0",
     "body-parser": "1.19.0",
     "cors": "2.8.5",
