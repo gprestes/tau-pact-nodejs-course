@@ -10,6 +10,9 @@
     "test:provider": "jest __tests__/contract/provider --runInBand --force-exit",
     "publish:contract": "node ./__tests__/helpers/publish.js"
   },
+  "config": {
+    "pact_do_not_track": true
+  },
   "devDependencies": {
     "@pact-foundation/pact": "9.14.0",
     "axios": "0.21.1",
