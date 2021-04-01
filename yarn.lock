@@ -485,10 +485,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@pact-foundation/pact-node@^10.11.11":
-  version "10.11.11"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-node/-/pact-node-10.11.11.tgz#c7b9b07f9661d6f5350ef9b364073eb767a4876a"
-  integrity sha512-G1I5hFX73BZZkiaXEz6u9SjgEEgFPUO6ZaTq6RqZuvZ+E6ZizantKpTOouoobWwB+dXnSiqU/3VB/jbNqZO5Cw==
+"@pact-foundation/pact-node@^10.12.1":
+  version "10.12.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-node/-/pact-node-10.12.1.tgz#3c838926ddccd2025bbe64e47ccbd240dac96c34"
+  integrity sha512-fzvMfYjJTxcNCEXUEc4b8walsMkm7BovegEN8DbJsEfosSW5V94wcdLFOq1LxRD3cAwVvTzhU/Mm5+/tG3glYQ==
   dependencies:
     "@types/pino" "^6.3.5"
     "@types/q" "1.0.7"
@@ -505,17 +505,17 @@
     rimraf "2.6.2"
     sumchecker "^2.0.2"
     tar "4.4.2"
-    underscore "1.8.3"
+    underscore "1.12.1"
     unixify "1.0.0"
     unzipper "^0.10.10"
     url-join "^4.0.0"
 
-"@pact-foundation/pact@9.15.2":
-  version "9.15.2"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.15.2.tgz#b91206050ef52ed6598ebaedb4755d1ab3c26e8c"
-  integrity sha512-SzeUL1jpM6Hl+Bb64w74efVU5c/B+h0xhE4padgEHYpxwEt7fEwx3Z6PtTSfdD1Sr5AEWZV+k76lTMj/UcXdKA==
+"@pact-foundation/pact@9.15.4":
+  version "9.15.4"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.15.4.tgz#3dd9ea8ad3d9485e25851f4adf549625c3f69dc4"
+  integrity sha512-6I+aNd8Wmx4ws2htpJCuOmkO4Q7jIkiKJpdBxVlx5IzDTdrd3Inwg/XtzewjJJhUg7Q8GxnENs5FG7U4Bgw0Eg==
   dependencies:
-    "@pact-foundation/pact-node" "^10.11.11"
+    "@pact-foundation/pact-node" "^10.12.1"
     "@types/bluebird" "^3.5.20"
     "@types/express" "^4.17.11"
     bluebird "~3.5.1"
@@ -4868,10 +4868,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-underscore@1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
-  integrity sha1-Tz+1OxBuYJf8+ctBCfKl6b36UCI=
+underscore@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.1.tgz#7bb8cc9b3d397e201cf8553336d262544ead829e"
+  integrity sha512-hEQt0+ZLDVUMhebKxL4x1BTtDY7bavVofhZ9KZ4aI26X9SRaE+Y3m83XUL1UP2jn8ynjndwCCpEHdUG+9pP1Tw==
 
 union-value@^1.0.0:
   version "1.0.1"
