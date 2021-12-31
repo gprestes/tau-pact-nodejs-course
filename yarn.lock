@@ -710,10 +710,10 @@
     unzipper "^0.10.10"
     url-join "^4.0.0"
 
-"@pact-foundation/pact@9.17.0":
-  version "9.17.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.17.0.tgz#20181a32472337e8de58ae7a56a99d5ba4c047d9"
-  integrity sha512-Q2bDp688iPh2zMzPixrdY8j7/ZtsNs5VoZ8GmhAOLRyM5f+scfMJe86rKA/uw2WVTmguQT3RGQan397tns9mbQ==
+"@pact-foundation/pact@9.17.1":
+  version "9.17.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.17.1.tgz#e2dee44d95434d4a227352a82572cfce39869b38"
+  integrity sha512-euEsEnu4uCRU1pY98cJcxjcmmROFZ5GGzKevS6E8qcOrY675KwQPrTSF0CXA3PnS9LdayHLPeMHsDibG8FKuSQ==
   dependencies:
     "@pact-foundation/pact-node" "^10.15.0"
     "@types/bluebird" "^3.5.20"
