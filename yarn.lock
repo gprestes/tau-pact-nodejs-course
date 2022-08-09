@@ -864,10 +864,10 @@
     underscore "1.12.1"
     unixify "1.0.0"
 
-"@pact-foundation/pact@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-10.0.1.tgz#227134c9ef9a88607ffb2d0eed13e521f839d470"
-  integrity sha512-BcHIsGPx/lYO3g4W9Jm9QNVX/qIbqEaYfpvTFfqQFRvLgeNOcoYBDKmz+9VF1+Cott9Uh3ynYsF3ZpF6qtLJmQ==
+"@pact-foundation/pact@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-10.0.2.tgz#c83b58f75595b2ba0f684bf5b2488ea1b8b67660"
+  integrity sha512-YqIgdfEpSxbopvIxJk62VRFV9i4bx/XGM94dpnrx5CP8q2aab8opAoxjWgn/NtJMXdwHhWHI1gWneI4JJ2wG6Q==
   dependencies:
     "@pact-foundation/pact-core" "^13.6.2"
     "@types/bluebird" "^3.5.20"
