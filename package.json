@@ -14,7 +14,7 @@
     "pact_do_not_track": true
   },
   "devDependencies": {
-    "@pact-foundation/pact": "10.0.2",
+    "@pact-foundation/pact": "10.1.0",
     "axios": "0.27.2",
     "body-parser": "1.20.0",
     "cors": "2.8.5",
