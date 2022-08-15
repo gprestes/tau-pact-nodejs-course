@@ -843,10 +843,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pact-foundation/pact-core@^13.6.2":
-  version "13.6.2"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core/-/pact-core-13.6.2.tgz#cf9e63b418a7d3deff3e673226643a080dcd6ed3"
-  integrity sha512-czcsQIRH2r+w1/zOp/QRNeQPEVM4SCnegKRMi4jVY+uT4nMw2+IEKf+uDgn7W5gCFPwAxrLaNq0dXiOH9W3xHQ==
+"@pact-foundation/pact-core@^13.7.7":
+  version "13.7.7"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core/-/pact-core-13.7.7.tgz#c5cf9660e07fcd4094ceac9aad4a8f0e9ecbd5cc"
+  integrity sha512-HNqohqsifVS3QF9Qq+OJvss6+VdZ/yZ1EjSulQQCQYleOlm9VHArNngOJE2Kb1JIIq7Av7J6xNg17cN/hyAuxg==
   dependencies:
     "@types/needle" "2.5.2"
     "@types/pino" "6.3.11"
@@ -864,12 +864,12 @@
     underscore "1.12.1"
     unixify "1.0.0"
 
-"@pact-foundation/pact@10.1.0":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-10.1.0.tgz#c8cd4067879a40f70baa43c90f3a872ea575af02"
-  integrity sha512-WSdAMmLofFNnNsqtijyXHsucdyexll/g2mQH43SIVnArC2A6weJANBSVO3uUmFUyTSXRRWsB0oqEKiWmCrv6dg==
+"@pact-foundation/pact@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-10.1.1.tgz#86aa979d90fae3848652abc9e63afff6ff906f3b"
+  integrity sha512-aCXZ8Ej2zLZgwB35AGw2pX/672MgIg7Pdv2ECyvFmx7iubN3RvhHhNJPhTv/OTIAnxCNA8tSLCVBmXmJlWjnig==
   dependencies:
-    "@pact-foundation/pact-core" "^13.6.2"
+    "@pact-foundation/pact-core" "^13.7.7"
     "@types/bluebird" "^3.5.20"
     "@types/express" "^4.17.11"
     axios "^0.27.2"
