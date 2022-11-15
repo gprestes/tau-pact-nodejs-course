@@ -868,10 +868,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pact-foundation/pact-core@^13.7.8":
-  version "13.7.8"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core/-/pact-core-13.7.8.tgz#a345de876f17953c503deeaecb31507f56d1feb4"
-  integrity sha512-8jQ/BwzmaeyE7PIQoLMBcKOxyNVz99Y7HG5rQPLJGmb9c/4MT7XfU1PTJS7e+c/h1zJCtuupUw1aKDySBjkbag==
+"@pact-foundation/pact-core@^13.12.0":
+  version "13.12.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core/-/pact-core-13.12.0.tgz#80cf6d6ecaaa7537562816cebbad86ebd40d64df"
+  integrity sha512-q3Un3vxKBfHaan/Jb3COVC217s1HOKlvAxmyATnd2c/1Uh5ftQN+C4h3c6VojPQ7CpKzDtqZIourawCKFctkNw==
   dependencies:
     "@types/needle" "2.5.2"
     "@types/pino" "6.3.11"
@@ -889,12 +889,12 @@
     underscore "1.12.1"
     unixify "1.0.0"
 
-"@pact-foundation/pact@10.1.3":
-  version "10.1.3"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-10.1.3.tgz#7964e720f349f2a92d8ab684f4d8bebc3dd36426"
-  integrity sha512-ITjUfTiHpL1uc40RipzLKxAszteehLZE4znc0Xh2L9XEGRLnT6ATqN0kv7ufRoxkCgWsP/mWPbig5xWxCB9T6w==
+"@pact-foundation/pact@10.2.2":
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-10.2.2.tgz#3154c357fc57cf50944c7cbb67129031910199c5"
+  integrity sha512-LvL76uwSlsYdRvzlu9L/tb4beWP1GEmhsXD36MVMSeMy1vZkyPNcx8bjf/7ThCXbTZAs/Qc1vcGwecxd7Tq4GQ==
   dependencies:
-    "@pact-foundation/pact-core" "^13.7.8"
+    "@pact-foundation/pact-core" "^13.12.0"
     "@types/bluebird" "^3.5.20"
     "@types/express" "^4.17.11"
     axios "^0.27.2"
@@ -914,7 +914,7 @@
     lodash.omitby "4.6.0"
     pino-pretty "^6.0.0"
     pkginfo "^0.4.1"
-    ramda "^0.27.2"
+    ramda "^0.28.0"
     randexp "^0.5.3"
 
 "@sinclair/typebox@^0.24.1":
@@ -3504,10 +3504,10 @@ quick-format-unescaped@^4.0.3:
   resolved "https://registry.yarnpkg.com/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz#93ef6dd8d3453cbc7970dd614fad4c5954d6b5a7"
   integrity sha512-tYC1Q1hgyRuHgloV/YXs2w15unPVh8qfu/qCTfhTYamaw7fyhumKa2yGpdSo87vY32rIclj+4fWYQXUMs9EHvg==
 
-ramda@^0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
-  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
+ramda@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.28.0.tgz#acd785690100337e8b063cab3470019be427cc97"
+  integrity sha512-9QnLuG/kPVgWvMQ4aODhsBUFKOUmnbUnsSXACv+NCQZcHbeb+v8Lodp8OVxtRULN1/xOyYLLaL6npE6dMq5QTA==
 
 randexp@^0.5.3:
   version "0.5.3"
