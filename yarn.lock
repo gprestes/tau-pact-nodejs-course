@@ -942,10 +942,10 @@ atomic-sleep@^1.0.0:
   resolved "https://registry.yarnpkg.com/atomic-sleep/-/atomic-sleep-1.0.0.tgz#eb85b77a601fc932cfe432c5acd364a9e2c9075b"
   integrity sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==
 
-axios@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.0.tgz#b48f715325457ededfcb3f0a44a3fb9d5742acb6"
-  integrity sha512-IiB0wQeKyPRdsFVhBgIo31FbzOyf2M6wYl7/NVutFwFBRMiAbjNiydJIHKeLmPugF4kJLfA1uWZ82Is2QzqqFA==
+axios@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.1.tgz#522145622a09dfaf49359837db9649ff245a35b9"
+  integrity sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
