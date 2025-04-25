@@ -662,16 +662,17 @@
     "@pact-foundation/pact-core-linux-x64-musl" "16.0.0"
     "@pact-foundation/pact-core-windows-x64" "16.0.0"
 
-"@pact-foundation/pact@14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-14.0.0.tgz#da73aab2a2a9685a5b3844f1f11066b189104e7e"
-  integrity sha512-wdPGHSbj+RPKqzNN4/JB5Xua9NVTc6LNZdY91x5xN/ISQsCvzmoPny2WAvWP5dNUSvhNGvqi+rkrKxK7xXDt8w==
+"@pact-foundation/pact@15.0.1":
+  version "15.0.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-15.0.1.tgz#b05270149d5720186198114b5bf6e333ebba634e"
+  integrity sha512-9pv9mN/grXiXCPmyzQb9YYeyT8aHYO4uRNtfuR4IGLhNSHkHIhiS97ZUsegPruVkWiTcCv9tJahG+1OhL5BrTQ==
   dependencies:
     "@pact-foundation/pact-core" "^16.0.0"
-    axios "^1.7.8"
+    axios "^1.8.4"
     body-parser "^1.20.3"
     chalk "4.1.2"
     express "^4.21.1"
+    graphql "^16.10.0"
     graphql-tag "^2.9.1"
     http-proxy "^1.18.1"
     https-proxy-agent "^7.0.4"
@@ -899,19 +900,10 @@ atomic-sleep@^1.0.0:
   resolved "https://registry.yarnpkg.com/atomic-sleep/-/atomic-sleep-1.0.0.tgz#eb85b77a601fc932cfe432c5acd364a9e2c9075b"
   integrity sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==
 
-axios@1.9.0:
+axios@1.9.0, axios@^1.8.4:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.9.0.tgz#25534e3b72b54540077d33046f77e3b8d7081901"
   integrity sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==
-  dependencies:
-    follow-redirects "^1.15.6"
-    form-data "^4.0.0"
-    proxy-from-env "^1.1.0"
-
-axios@^1.7.8:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.8.4.tgz#78990bb4bc63d2cae072952d374835950a82f447"
-  integrity sha512-eBSYY4Y68NNlHbHBMdeDmKNtDgXWhQsJcGqzO3iLUM0GraQFSS9cVgPX5I9b3lbdFKyYoAEGAZF1DwhTaljNAw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
@@ -1903,6 +1895,11 @@ graphql-tag@^2.9.1:
   integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
   dependencies:
     tslib "^2.1.0"
+
+graphql@^16.10.0:
+  version "16.10.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.10.0.tgz#24c01ae0af6b11ea87bf55694429198aaa8e220c"
+  integrity sha512-AjqGKbDGUFRKIRCP9tCKiIGHyriz2oHEbPIbEtcSLSs4YjReZOIPQQWek4+6hjw62H9QShXHyaGivGiYVLeYFQ==
 
 has-flag@^4.0.0:
   version "4.0.0"
