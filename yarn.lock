@@ -734,10 +734,10 @@
     "@pact-foundation/pact-core-linux-x64-musl" "17.0.0"
     "@pact-foundation/pact-core-windows-x64" "17.0.0"
 
-"@pact-foundation/pact@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-16.0.0.tgz#ef07273808d6f2bcc8425eb70e2f5896cf29152a"
-  integrity sha512-QPjvu40M0vX5L6boUIPZt8JGsA+eL6G48XTtDAUGKA9wlgIjShaVF4bdkDGZmex3WLb1aht4P5BG+DGguR7NZQ==
+"@pact-foundation/pact@16.0.1":
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-16.0.1.tgz#3d848c197936521b9f030b8d03630d11457f81d2"
+  integrity sha512-JweU8OwlJ3LsgX1avs8/K+x+6fV6MPgisO7Yda4n99WJM/psr7U0EDFsN6UPFWLpPuaU4w0tRx3VBuDKwRPxjg==
   dependencies:
     "@pact-foundation/pact-core" "^17.0.0"
     axios "^1.12.2"
@@ -750,7 +750,7 @@
     https-proxy-agent "^7.0.6"
     js-base64 "^3.7.8"
     lodash "^4.17.21"
-    ramda "^0.31.3"
+    ramda "^0.32.0"
     randexp "^0.5.3"
     router "^2.2.0"
 
@@ -3044,10 +3044,10 @@ quick-format-unescaped@^4.0.3:
   resolved "https://registry.yarnpkg.com/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz#93ef6dd8d3453cbc7970dd614fad4c5954d6b5a7"
   integrity sha512-tYC1Q1hgyRuHgloV/YXs2w15unPVh8qfu/qCTfhTYamaw7fyhumKa2yGpdSo87vY32rIclj+4fWYQXUMs9EHvg==
 
-ramda@^0.31.3:
-  version "0.31.3"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.31.3.tgz#0f54199ec99a7bd6702277d28d6bf7f93b916bb9"
-  integrity sha512-xKADKRNnqmDdX59PPKLm3gGmk1ZgNnj3k7DryqWwkamp4TJ6B36DdpyKEQ0EoEYmH2R62bV4Q+S0ym2z8N2f3Q==
+ramda@^0.32.0:
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.32.0.tgz#b2116807b59b6b177af7a2ad19b14a3653570e96"
+  integrity sha512-GQWAHhxhxWBWA8oIBr1XahFVjQ9Fic6MK9ikijfd4TZHfE2+urfk+irVlR5VOn48uwMgM+loRRBJd6Yjsbc0zQ==
 
 randexp@^0.5.3:
   version "0.5.3"
