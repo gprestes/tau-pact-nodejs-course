@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@pact-foundation/pact": "16.0.2",
-    "axios": "1.13.0",
+    "axios": "1.13.1",
     "body-parser": "2.2.0",
     "cors": "2.8.5",
     "eslint": "9.38.0",
