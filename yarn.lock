@@ -707,10 +707,10 @@
     "@pact-foundation/pact-core-linux-x64-musl" "19.1.0"
     "@pact-foundation/pact-core-windows-x64" "19.1.0"
 
-"@pact-foundation/pact@16.3.0":
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-16.3.0.tgz#6d6ff0fa2c99f548756e8a2385084fa784985c1d"
-  integrity sha512-9SInfdwggCvkDZ1o4DZjF6uLpNUJ3JQm4tb3XPXT3ABGpu69lqJIAa6bgvMvZ2ktvMgH7FTeIU7KVJXHQ6l7Lg==
+"@pact-foundation/pact@16.3.1":
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-16.3.1.tgz#6e67b8c247752d0f8cab09160b680f55e6ee341e"
+  integrity sha512-Hm0KIN5dliezw36NWD7ClquCZX0QOZK1wM5bdcNyNVts22rBJkyBz/LjoxygXWloPQp+C93ogD2u5u9z3NOz/w==
   dependencies:
     "@pact-foundation/pact-core" "^19.1.0"
     axios "^1.12.2"
