@@ -714,12 +714,13 @@
     "@pact-foundation/pact-core-linux-x64-musl" "19.2.0"
     "@pact-foundation/pact-core-windows-x64" "19.2.0"
 
-"@pact-foundation/pact@16.5.0":
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-16.5.0.tgz#fd4805d9cfecc86ea9d791fcaddae5c3e31ee2ed"
-  integrity sha512-9YgmU6fDJGQVYoAm2ez52dyKfQwFzW47GlrT8IAKuzjL6qZVZ9+ael6myeMbQqz7J5lzEGLoUi2PMkBFFgQxRw==
+"@pact-foundation/pact@17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-17.0.0.tgz#5e54d659e88a64dae33ba83aed77ccdc652b212c"
+  integrity sha512-ic9G2gf/EE00nfArhpi9BplqCuo5TELYvhZ7wRy9roTwSEmEYOUsl0Vc3rDNX+qRVw/0QpHEya8GsaSnjYdfZg==
   dependencies:
     "@pact-foundation/pact-core" "^19.2.0"
+    "@scarf/scarf" "^1.4.0"
     axios "^1.12.2"
     body-parser "^2.2.0"
     chalk "4.1.2"
@@ -727,7 +728,7 @@
     graphql "^16.11.0"
     graphql-tag "^2.12.6"
     http-proxy "^1.18.1"
-    https-proxy-agent "^9.0.0"
+    https-proxy-agent "^7.0.6"
     js-base64 "^3.7.8"
     lodash "^4.17.21"
     ramda "^0.32.0"
@@ -749,6 +750,11 @@
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.3.6.tgz#3569708bd4be4d8870ba32bf1c456dac81600d97"
   integrity sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==
+
+"@scarf/scarf@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.4.0.tgz#3bbb984085dbd6d982494538b523be1ce6562972"
+  integrity sha512-xxeapPiUXdZAE3che6f3xogoJPeZgig6omHEy1rIY5WVsB3H2BHNnZH+gHG6x91SCWyQCzWGsuL2Hh3ClO5/qQ==
 
 "@sinclair/typebox@^0.34.0":
   version "0.34.49"
@@ -1011,10 +1017,10 @@ agent-base@6:
   dependencies:
     debug "4"
 
-agent-base@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-9.0.0.tgz#ec9efb08314e1e75b0852d74aabf9a387f99834e"
-  integrity sha512-TQf59BsZnytt8GdJKLPfUZ54g/iaUL2OWDSFCCvMOhsHduDQxO8xC4PNeyIkVcA5KwL2phPSv0douC0fgWzmnA==
+agent-base@^7.1.2:
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-7.1.4.tgz#e3cd76d4c548ee895d3c3fd8dc1f6c5b9032e7a8"
+  integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
 
 ajv@^6.14.0:
   version "6.15.0"
@@ -1424,7 +1430,7 @@ dateformat@^4.6.3:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-4.6.3.tgz#556fa6497e5217fedb78821424f8a1c22fa3f4b5"
   integrity sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==
 
-debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.4.0, debug@^4.4.3:
+debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.4.0, debug@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.3.tgz#c6ae432d9bd9662582fce08709b038c58e9e3d6a"
   integrity sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==
@@ -2034,14 +2040,13 @@ https-proxy-agent@^5.0.1:
     agent-base "6"
     debug "4"
 
-https-proxy-agent@^9.0.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-9.1.0.tgz#a9f60f79bc1578c37b166dd7f58b6bcb5c57e44b"
-  integrity sha512-ag87y7cJJ9/3+GxFr8Oy4O5faDsGRGnBGsJj/YjOSsSx/5eadKLYTMPlzuR6obgoCDDm0abAAZitXXQkMOPSpA==
+https-proxy-agent@^7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz#da8dfeac7da130b05c2ba4b59c9b6cd66611a6b9"
+  integrity sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==
   dependencies:
-    agent-base "9.0.0"
-    debug "^4.3.4"
-    proxy-agent-negotiate "1.1.0"
+    agent-base "^7.1.2"
+    debug "4"
 
 human-signals@^2.1.0:
   version "2.1.0"
@@ -3021,11 +3026,6 @@ proxy-addr@^2.0.7:
   dependencies:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
-
-proxy-agent-negotiate@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/proxy-agent-negotiate/-/proxy-agent-negotiate-1.1.0.tgz#de7d37aede9d71e74346125d6f484fac8092b615"
-  integrity sha512-N8IBcM3UgCVzz2L2Lqv8DVntDnnC8/hiV4nEDUPkqq72TPUgYWjQc+bdZlBPZK9LzPAvOY//gAt0S0DApoOXWQ==
 
 proxy-from-env@^2.1.0:
   version "2.1.0"
