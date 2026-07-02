@@ -714,10 +714,10 @@
     "@pact-foundation/pact-core-linux-x64-musl" "19.2.0"
     "@pact-foundation/pact-core-windows-x64" "19.2.0"
 
-"@pact-foundation/pact@17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-17.0.0.tgz#5e54d659e88a64dae33ba83aed77ccdc652b212c"
-  integrity sha512-ic9G2gf/EE00nfArhpi9BplqCuo5TELYvhZ7wRy9roTwSEmEYOUsl0Vc3rDNX+qRVw/0QpHEya8GsaSnjYdfZg==
+"@pact-foundation/pact@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-17.0.1.tgz#47b19c59561e94ff99c608a6cde4e675d28fc527"
+  integrity sha512-Gnzy9fMK0Wu6UB8u0fYcso5fiEZk+Tu2lG9zR5DoJiwWBanb/9/pOmRrBWtOHn5EdgvEvzIF1huB39sZIc27Rw==
   dependencies:
     "@pact-foundation/pact-core" "^19.2.0"
     "@scarf/scarf" "^1.4.0"
