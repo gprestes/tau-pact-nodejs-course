@@ -659,45 +659,45 @@
   dependencies:
     "@tybys/wasm-util" "^0.10.3"
 
-"@pact-foundation/pact-core-darwin-arm64@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-darwin-arm64/-/pact-core-darwin-arm64-19.2.0.tgz#49555826391a08c8ff065b9263160b2cd14c99f2"
-  integrity sha512-cQvvWfJKS7iMzkunzh/kdgmyVLhAxyr/BQ8fOnMco2M/1+GHR+sOXvhrR1tes+NAYd1xjE3fbg1K2Flno8aDBw==
+"@pact-foundation/pact-core-darwin-arm64@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-darwin-arm64/-/pact-core-darwin-arm64-20.2.0.tgz#0fd8231fb6dd0d89678fe05af496f9b5085ae0b9"
+  integrity sha512-oKSS6QCbxNhTV4v/Tpt70zsPU5UN60VsdHR1JvVCjJ1YyxB3INElIYzBeywYPzR1C1An1Sfx1KONCPeFykhfmA==
 
-"@pact-foundation/pact-core-darwin-x64@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-darwin-x64/-/pact-core-darwin-x64-19.2.0.tgz#8bae182b0bcb44dafb3677423367d37a7f80641b"
-  integrity sha512-UltPXDZ+h1r3JqgIpEBP16bQzB90otd1QbcoeM3XakF9khCrYhW4y9llSuaosyqPFYwCk+mLaZTl/4iitJJaow==
+"@pact-foundation/pact-core-darwin-x64@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-darwin-x64/-/pact-core-darwin-x64-20.2.0.tgz#58cc444cf43e6d9239e1daf24a9824f8c7c3c3ae"
+  integrity sha512-E1dgxZ+Y1o04Rq1dthHNv1Xwc41TNWpmEWuerrgh9sFMkzPf5KoczKw3brvdSyuHZPXb0uOeDtTU35wPfy8eGw==
 
-"@pact-foundation/pact-core-linux-arm64-glibc@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-arm64-glibc/-/pact-core-linux-arm64-glibc-19.2.0.tgz#6e0a82856ac04c1057dc230ea9be55fc40bf2ddb"
-  integrity sha512-amiv4COurH1FRa7DSH3ks4UPQCb5J3x4GKrArf8UsTOkNhVGFUWVl83LOELj9Gtk67GwJ96iF7/fQps8I/iFIA==
+"@pact-foundation/pact-core-linux-arm64-glibc@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-arm64-glibc/-/pact-core-linux-arm64-glibc-20.2.0.tgz#06ca4b5bbfea7b9a4054322a9cbb8f3516960eb9"
+  integrity sha512-TrTe+8Q68B08mAvWWITEXkMQDRkLRtu0yJO+E/db5iZK8hubigfFzTJaGamMeu1UbBvUf3LUv0lF/uxc3YY5Eg==
 
-"@pact-foundation/pact-core-linux-arm64-musl@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-arm64-musl/-/pact-core-linux-arm64-musl-19.2.0.tgz#68a3bb49feb2f47e6b8db8d8f031b8bd2efd9930"
-  integrity sha512-tGWF7dP72Ho1A1PApyUqUMRI/e+gfbPxfaXxwWMXNh8JLK2jQQnP4bWymGwHQ4vxL7wn8ayx8I5y6x1vk/2+rA==
+"@pact-foundation/pact-core-linux-arm64-musl@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-arm64-musl/-/pact-core-linux-arm64-musl-20.2.0.tgz#46a375af10f85622822d4a4334bfa7a79985f6f8"
+  integrity sha512-AyhQcZH0QsNUPcBHRAGpbsf0okEk5LiUtTdtOHAratTNLGuImI/EQfFmozcrmC9Zqi3A4MjiYta/SrB1axUKeQ==
 
-"@pact-foundation/pact-core-linux-x64-glibc@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-x64-glibc/-/pact-core-linux-x64-glibc-19.2.0.tgz#9f5ea4b82d7d348a6980de04ca49c884e4aed88f"
-  integrity sha512-/ZNuWKuFJSBRZH09t7FXqKLy5koCaMIZ4RdbockLYlNo8uWF2ALfRCllj+SbXPLK+T+lVnBrs5s94X2cu4Rc7A==
+"@pact-foundation/pact-core-linux-x64-glibc@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-x64-glibc/-/pact-core-linux-x64-glibc-20.2.0.tgz#88c26c7b43b000e749ff263db9f84c4f442366ae"
+  integrity sha512-sj2gGwCkq1QPIXrXW7jaGKAmn5eJIAgNURKAVqE9z2+uEZWqIni/Bp2Jh6xt4L+nyHOZ5F/pZ/J1FxKf//ilEw==
 
-"@pact-foundation/pact-core-linux-x64-musl@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-x64-musl/-/pact-core-linux-x64-musl-19.2.0.tgz#a752777dc8e88d9fb0145f0b1525834e15996c5e"
-  integrity sha512-n0m39CzVkq8J2alir1redm0rAdUVQzkKJqYBQdRmhEIa+QeGjUrJq+gmakUysoJxfSY4UthnJ9jS8SoyiZ+k6A==
+"@pact-foundation/pact-core-linux-x64-musl@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-linux-x64-musl/-/pact-core-linux-x64-musl-20.2.0.tgz#952d7c50954226e6e94e706823512b78311391c4"
+  integrity sha512-aMKWEAuLOHEwbifSUyrQCIBUOId5sIVjOoxIajAsRD7YCAV0uT2Ztu68zEPFUbdIUB56NIl5aNjXZxDqO8Ccfw==
 
-"@pact-foundation/pact-core-windows-x64@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-windows-x64/-/pact-core-windows-x64-19.2.0.tgz#6f9daaf5b0259b4465aa510809f447c5e79cab91"
-  integrity sha512-WZSDBL1Sn8y5+YJTK+HDiS/Fn9th1M4QJW2dflQ8UFwoaIh6yb0TrJjtuWbDGIwNeD4Sv8CJ5jJOf1nyNjFLfg==
+"@pact-foundation/pact-core-windows-x64@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core-windows-x64/-/pact-core-windows-x64-20.2.0.tgz#70d25a2ffe3c87b4cf2b02edc18626190b8dac30"
+  integrity sha512-CPDQdUxy+bLZ2pni4wU2DBpHq3GjNP49moh9qoJJ6HZBQFdR68yRStOB5xatjZneGZdicSG3EXfxdVoxTn3YYA==
 
-"@pact-foundation/pact-core@^19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core/-/pact-core-19.2.0.tgz#1af3ef7bf9404330a1b2913819cfc0b557c10d52"
-  integrity sha512-7EB2e850hmBzGnwOYTRj4TCFCJQa9zaOy53bK+ybzEDx801olf0gVlYqMYHt1EsHUZzmtS5uDybpr9UMcZQxgg==
+"@pact-foundation/pact-core@^20.1.1":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-core/-/pact-core-20.2.0.tgz#689b8bc5041f58535390cb54f991429cdf22e6f2"
+  integrity sha512-AKPJomBRHmQ8ilOkCaT2ZpvL2j/GM9CeE3K81w57zy3gwOnN6ZdMyw38ddqIHudTgS6eNQLqBKLbrRsOOKwwtg==
   dependencies:
     check-types "11.2.3"
     detect-libc "^2.0.3"
@@ -706,20 +706,20 @@
     pino-pretty "^13.1.1"
     underscore "1.13.8"
   optionalDependencies:
-    "@pact-foundation/pact-core-darwin-arm64" "19.2.0"
-    "@pact-foundation/pact-core-darwin-x64" "19.2.0"
-    "@pact-foundation/pact-core-linux-arm64-glibc" "19.2.0"
-    "@pact-foundation/pact-core-linux-arm64-musl" "19.2.0"
-    "@pact-foundation/pact-core-linux-x64-glibc" "19.2.0"
-    "@pact-foundation/pact-core-linux-x64-musl" "19.2.0"
-    "@pact-foundation/pact-core-windows-x64" "19.2.0"
+    "@pact-foundation/pact-core-darwin-arm64" "20.2.0"
+    "@pact-foundation/pact-core-darwin-x64" "20.2.0"
+    "@pact-foundation/pact-core-linux-arm64-glibc" "20.2.0"
+    "@pact-foundation/pact-core-linux-arm64-musl" "20.2.0"
+    "@pact-foundation/pact-core-linux-x64-glibc" "20.2.0"
+    "@pact-foundation/pact-core-linux-x64-musl" "20.2.0"
+    "@pact-foundation/pact-core-windows-x64" "20.2.0"
 
-"@pact-foundation/pact@17.0.1":
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-17.0.1.tgz#47b19c59561e94ff99c608a6cde4e675d28fc527"
-  integrity sha512-Gnzy9fMK0Wu6UB8u0fYcso5fiEZk+Tu2lG9zR5DoJiwWBanb/9/pOmRrBWtOHn5EdgvEvzIF1huB39sZIc27Rw==
+"@pact-foundation/pact@17.1.4":
+  version "17.1.4"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-17.1.4.tgz#810cf70ea5efb24966efb999d4ab15b75d71a0f4"
+  integrity sha512-HrMX+QA/B2Afto6yuQDeMDtTHLv2wtiqdmCIcodlzIlnYrCUg9HT1tFlOtFkjKZ3gsnnc52eeb+9Nm7IZGCW/w==
   dependencies:
-    "@pact-foundation/pact-core" "^19.2.0"
+    "@pact-foundation/pact-core" "^20.1.1"
     "@scarf/scarf" "^1.4.0"
     axios "^1.12.2"
     body-parser "^2.2.0"
